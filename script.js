@@ -1,34 +1,86 @@
 const backupVerses = [
-    {"verse": "He who has the Son has the life; he who does not have the Son of God does not have the life.", "reference": "1 John 5:12"},
-    {"verse": "When Christ our life is manifested, then you also will be manifested with Him in glory.", "reference": "Col. 3:4"},
-    {"verse": "Jesus said to her, 'I am the resurrection and the life; he who believes into Me, even if he should die, shall live; and everyone who lives and believes into Me shall by no means die forever. Do you believe this?'", "reference": "John 11:25"},
-    {"verse": "Jesus said to him, 'I am the way and the reality and the life; no one comes to the Father except through Me.'", "reference": "John 14:6"},
-    {"verse": "The thief comes only to steal and kill and destroy; I have come that they may have life and have it abundantly.", "reference": "John 10:10"},
-    {"verse": "But when it pleased God, who set me apart from my mother’s womb and called me through His grace, To reveal His Son in me that I might announce Him as the gospel among the Gentiles", "reference": "Gal. 1:15-16a"},
-    {"verse": "I am crucified with Christ; and it is no longer I who live, but it is Christ who lives in me; and the life which I now live in the flesh I live in faith, the faith of the Son of God, who loved me and gave Himself up for me.", "reference": "Gal. 2:20"},
-    {"verse": "My children, with whom I travail again in birth until Christ is formed in you,", "reference": "Gal. 4:19"},
-    {"verse": "According to my earnest expectation and hope that in nothing I will be put to shame, but with all boldness, as always, even now Christ will be magnified in my body, whether through life or through death.", "reference": "Phil. 1:20"},
-    {"verse": "Until we all arrive at the oneness of the faith and of the full knowledge of the Son of God, at a full-grown man, at the measure of the stature of the fullness of Christ,", "reference": "Eph. 4:13"},
-    {"verse": "Jesus answered and said to him, 'Truly, truly, I say to you, Unless one is born anew, he cannot see the kingdom of God.'", "reference": "John 3:3"},
-    {"verse": "Jesus answered, Truly, truly, I say to you, Unless one is born of water and the Spirit, he cannot enter into the kingdom of God.", "reference": "John 3:5-6"},
-    {"verse": "If anyone thirsts, let him come to Me and drink.", "reference": "John 7:37b"},
-    {"verse": "But as many as received Him, to them He gave the authority to become children of God, to those who believe into His name,", "reference": "John 1:12-13"},
-    {"verse": "Therefore if anyone is in Christ, he is a new creation. The old things have passed away; behold, they have become new.", "reference": "2 Cor. 5:17"},
-    {"verse": "I will also give you a new heart, and a new spirit I will put within you; and I will take away the heart of stone out of your flesh, and I will give you a heart of flesh.", "reference": "Ezek. 36:26"},
-    {"verse": "For it is God who operates in you both the willing and the working for His good pleasure.", "reference": "Phil. 2:13"},
-    {"verse": "I am crucified with Christ; and it is no longer I who live, but it is Christ who lives in me;", "reference": "Gal. 2:20a"},
-    {"verse": "But the anointing which you have received from Him abides in you, and you have no need that anyone teach you; but as His anointing teaches you concerning all things and is true and is not a lie, and even as it has taught you, abide in Him.", "reference": "1 John 2:27"},
-    {"verse": "For the law of the Spirit of life has freed me in Christ Jesus from the law of sin and of death.", "reference": "Rom. 8:2"},
-    {"verse": "For to be fleshly minded is death, but to be spiritually minded is life and peace.", "reference": "Rom. 8:6"},
-    {"verse": "The Spirit Himself witnesses with our spirit that we are children of God.", "reference": "Rom. 8:16"},
-    {"verse": "For I know that in me, that is, in my flesh, nothing good dwells; for to will is present with me, but to work out the good is not.", "reference": "Rom. 7:18-21"},
-    {"verse": "But now we have been discharged from the law, having died to that in which we were held, so that we serve in newness of spirit and not in oldness of letter.", "reference": "Rom. 7:6"},
-    {"verse": "For the law of the Spirit of life has freed me in Christ Jesus from the law of sin and of death.", "reference": "Rom. 8:2"},
-    {"verse": "For this is the covenant which I will make with the house of Israel after those days, says the Lord: I will impart My laws into their mind, and on their hearts I will inscribe them;", "reference": "Heb. 8:10"},
-    {"verse": "This is the covenant which I will covenant with them after those days, says the Lord: I will impart My laws upon their hearts, and upon their minds I will inscribe them,", "reference": "Heb. 10:16"},
-    {"verse": "That which was from the beginning, which we have heard, which we have seen with our eyes, which we have beheld and our hands have handled, concerning the Word of life", "reference": "1 John 1:1-3"},
-    {"verse": "And this is the message which we have heard from Him and announce to you, that God is light and in Him is no darkness at all. If we say that we have fellowship with Him and yet walk in the darkness, we lie and are not practicing the truth; But if we walk in the light as He is in the light, we have fellowship with one another, and the blood of Jesus His Son cleanses us from every sin.", "reference": "1 John 1:5-7"}
-];
+    {
+        "verse": "For the word of God is living and operative and sharper than any two-edged sword, and piercing even to the dividing of soul and spirit and of joints and marrow, and able to discern the thoughts and intentions of the heart.",
+        "reference": "Heb. 4:12"
+    },
+    {
+        "verse": "Then Jesus said to His disciples, If anyone wants to come after Me, let him deny himself and take up his cross and follow Me. For whoever wants to save his soul-life shall lose it; but whoever loses his soul-life for My sake shall find it.",
+        "reference": "Matt. 16:24-25"
+    },
+    {
+        "verse": "But a soulish man does not receive the things of the Spirit of God, for they are foolishness to him and he is not able to know [them] because they are discerned spiritually. But the spiritual man discerns all things, but he himself is discerned by no one.",
+        "reference": "1 Cor. 2:14-15"
+    },
+    {
+        "verse": "And He said to [them] all, If anyone wants to come after Me, let him deny himself and take up his cross daily and follow Me. For whoever wants to save his soul-life shall lose it; but whoever loses his soul-life for My sake, this one shall save it. For what is a man profited if he gains the whole world but loses or forfeits himself?",
+        "reference": "Luke 9:23-25"
+    },
+    {
+        "verse": "For who among men knows the things of man, except the spirit of man which is in him? In the same way, the things of God also no one has known except the Spirit of God.",
+        "reference": "1 Cor. 2:11"
+    },
+    {
+        "verse": "Because of this we have been comforted. And in addition to our comfort, we rejoiced more abundantly over the joy of Titus, because his spirit has been refreshed by all of you.",
+        "reference": "2 Cor. 7:13"
+    },
+    {
+        "verse": "And when these things were fulfilled, Paul purposed in his spirit to pass through Macedonia and Achaia and go to Jerusalem, saying, After I have been there, I must also see Rome.",
+        "reference": "Acts 19:21"
+    },
+    {
+        "verse": "For I know that in me, that is, in my flesh, nothing good dwells; for to will is present with me, but to work out the good is not.",
+        "reference": "Rom. 7:18"
+    },
+    {
+        "verse": "For the mind set on the flesh is death, but the mind set on the spirit is life and peace. Because the mind set on the flesh is enmity against God; for it is not subject to the law of God, for neither can it be.",
+        "reference": "Rom. 8:6-7"
+    },
+    {
+        "verse": "And Jehovah said, My Spirit will not strive with man forever, for he indeed is flesh; so his days will be one hundred twenty years.",
+        "reference": "Gen. 6:3"
+    },
+    {
+        "verse": "Knowing this, that our old man has been crucified with [Him] in order that the body of sin might be annulled, that we should no longer serve sin as slaves;",
+        "reference": "Rom. 6:6"
+    },
+    {
+        "verse": "But they who are of Christ Jesus have crucified the flesh with its passions and its lusts.",
+        "reference": "Gal. 5:24"
+    },
+    {
+        "verse": "For if you live according to the flesh, you must die, but if by the Spirit you put to death the practices of the body, you will live.",
+        "reference": "Rom. 8:13"
+    },
+    {
+        "verse": "Knowing this, that our old man has been crucified with [Him] in order that the body of sin might be annulled, that we should no longer serve sin as slaves;",
+        "reference": "Rom. 6:6"
+    },
+    {
+        "verse": "I am crucified with Christ; and [it is] no longer I [who] live, but [it is] Christ [who] lives in me; and the [life] which I now live in the flesh I live in faith, the [faith] of the Son of God, who loved me and gave Himself up for me.",
+        "reference": "Gal. 2:20"
+    },
+    {
+        "verse": "But they who are of Christ Jesus have crucified the flesh with its passions and its lusts.",
+        "reference": "Gal. 5:24"
+    },
+    {
+        "verse": "So also you, reckon yourselves to be dead to sin, but living to God in Christ Jesus.",
+        "reference": "Rom. 6:11"
+    },
+    {
+        "verse": "From that time Jesus began to show to His disciples that He must go to Jerusalem and suffer many things from the elders and chief priests and scribes and be killed and on the third day be raised. And Peter took Him aside and began to rebuke Him, saying, [God] be merciful to You, Lord! This shall by no means happen to You! But He turned and said to Peter, Get behind Me, Satan! You are a stumbling block to Me, for you are not setting your mind on the things of God, but on the things of men. Then Jesus said to His disciples, If anyone wants to come after Me, let him deny himself and take up his cross and follow Me. For whoever wants to save his soul-life shall lose it; but whoever loses his soul-life for My sake shall find it. For what shall a man be profited if he gains the whole world, but forfeits his soul-life? Or what shall a man give in exchange for his soul-life?",
+        "reference": "Matt. 16:21-26"
+    },
+    {
+        "verse": "For what is a man profited if he gains the whole world but loses or forfeits himself?",
+        "reference": "Luke 9:25"
+    },
+    {
+        "verse": "But their eyes were kept from recognizing Him.",
+        "reference": "Luke 24:16"
+    }
+]
+;
 
 let verses = [];
 let currentVerse = {};
